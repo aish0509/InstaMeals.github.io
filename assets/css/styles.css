@@ -344,10 +344,53 @@ img {
 
 .app__image {
   padding: 0 0.75rem;
-  width: 172px;
+  width: 160px;
 }
 
 .phone__image {
-  width: 22rem;
-  padding: 2rem;
+  width: 19rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+/* ----CONTACT SECTION------ */
+.contact__container {
+  text-align: center;
+}
+.contact__desc {
+  margin-bottom: var(--mb-4);
+}
+
+/* --------FOOTER SECTION-------- */
+.footer__logo {
+  color: var(--primary-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.footer__desc {
+  display: block;
+  font-size: var(--small-font-size);
+  margin: 0.25rem 0 var(--mb-3);
+}
+
+.footer__social {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.footer__title {
+  color: var(--secondary-color);
+  margin-bottom: var(--mb-2);
+}
+
+.footer__link {
+  display: inline-block;
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+}
+
+.footer__aish {
+  margin: 2rem 0 0 0;
+  text-align: center;
+  font-size: var(--small-font-size);
 }
