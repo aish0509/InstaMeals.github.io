@@ -46,3 +46,30 @@ const scrollActive = () => {
 };
 
 window.addEventListener("scroll", scrollActive);
+
+// DARK-LIGHT THEME
+
+const themeButton = document.getElementById("theme-button");
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+  document.getElementById("theme-button").classList.toggle("bx-sun");
+});
+
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 2000,
+  reset: true,
+});
+
+sr.reveal(
+  `.home__data, .home__image,
+          .about__data, .about__image,
+          .services__content, .menu__content,
+          .app__data, .app__img,
+          .contact,
+          .footer__content`,
+  {
+    interval: 200,
+  }
+);
